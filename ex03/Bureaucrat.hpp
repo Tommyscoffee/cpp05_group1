@@ -11,6 +11,7 @@ class Bureaucrat
 
 public:
 
+	Bureaucrat( void );
 	Bureaucrat( const std::string &name, int grade );
 	Bureaucrat( const Bureaucrat &src );
 	~Bureaucrat( void );
@@ -32,8 +33,6 @@ private:
 
 	static const int	lowestGrade = 150;
 	static const int	highestGrade = 1;
-
-	Bureaucrat( void );
 
 //exceptionクラス作成
 public:

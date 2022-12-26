@@ -1,7 +1,7 @@
 NAME = a.out
 
-SRCS = main.cpp Bureaucrat.cpp Form.cpp PresidentialPardonForm.cpp RobotmyRequestForm.cpp ShrubberyCreationForm.cpp
-OBJS = $(SRCS:.cpp=.o)
+SRCS = main.cpp Bureaucrat.cpp Form.cpp PresidentialPardonForm.cpp RobotmyRequestForm.cpp ShrubberyCreationForm.cpp Intern.cpp
+OBJS = $(SRCS:.cpp=.o) 
 
 CXX = c++
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98 -fsanitize=address
